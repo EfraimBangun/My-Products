@@ -16,6 +16,9 @@
       z-index: 100;
       background-color: #e3f2fd;
     }
+	 #audio-controls {
+      margin-top: 20px;
+    }
 
   </style>
   </head>
@@ -32,6 +35,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul class="navbar-nav ml-auto ">
+            <li class="nav-item">
+              <a class="nav-link" href="artikel.html">Artikel</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link active" href="#about">About Us</a>
             </li>
@@ -53,6 +59,14 @@
     <h5>Welcome To Food Delivery</h5>
     <a class="nav-link" href="#product"><button class="btn btn-primary" >Lihat Produk..</button></a>
 </div>
+
+<div id="audio-controls" class="text-center">
+    <audio id="myAudio" controls>
+      <source src="1.mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+  
 <div class="container text-center">
     <div class="row">
         <div class="col-md-6">
@@ -96,31 +110,31 @@
       
 <!-- BAGIAN PRODUK KAMI -->
 <div class="container mt-4" id="product" style="background-color: #e3f2fd; padding: 10px;">
-  <h1>Prducts</h1>
+  <h1>Products</h1>
   <div class="row">
     <div class="col mb-4 col-lg-3"><!-- Menggunakan col-md-4 untuk desktop dan col-12 untuk tampilan yang lebih kecil -->
       <div class="card">
-        <img src="2.jpg" class="d-center w-100" alt="...">
+        <img src="2.jpg" class="d-center w-100" alt="..." style="width:200px; height:200px; ">
         <div class="card-body">
-          <h5 class="card-title">Burger</h5>
+        <h4><a class="nav-link" aria-current="page" href="artikel.html#Product1">Burger</a></h4>
           <a href="https://api.whatsapp.com/send?phone=6281365466267" class="btn btn-outline-primary">Beli Sekarang</a>
         </div>
       </div>
     </div>
     <div class="col mb-4 col-lg-3"> <!-- Menggunakan col-md-4 untuk desktop dan col-12 untuk tampilan yang lebih kecil -->
       <div class="card">
-        <img src="3.jpg" class="d-center w-100" alt="...">
+        <img src="3.jpg" class="d-center w-100" alt="..." style="width:200px; height:200px; ">
         <div class="card-body">
-          <h5 class="card-title">Mie Goreng</h5>
+            <h4><a class="nav-link" aria-current="page" href="artikel.html#Product2">Mie Goreng</a></h4>
           <a href="https://api.whatsapp.com/send?phone=6281365466267" class="btn btn-outline-primary">Beli Sekarang</a>
         </div>
       </div>
     </div>
     <div class="col mb-4 col-lg-3"><!-- Menggunakan col-md-4 untuk desktop dan col-12 untuk tampilan yang lebih kecil -->
       <div class="card">
-        <img src="4.jpg" class="d-center w-100" alt="...">
+        <img src="4.jpg" class="d-center w-100" alt="..." style="width:200px; height:200px;">
         <div class="card-body">
-          <h5 class="card-title">Ayam CFC</h5>
+          <h4><a class="nav-link" aria-current="page" href="artikel.html#Product3">Ayam KFC</a></h4>
           <a href="https://api.whatsapp.com/send?phone=6281365466267" class="btn btn-outline-primary">Beli Sekarang</a>
         </div>
       </div>
@@ -128,36 +142,36 @@
   
     <div class="col mb-4 col-lg-3"> <!-- Menggunakan col-md-4 untuk desktop dan col-12 untuk tampilan yang lebih kecil -->
     <div class="card">
-      <img src="5.jpg" class="d-center w-100" alt="...">
+      <img src="5.jpg" class="d-center w-100" alt="..." style="width:200px; height:200px; ">
       <div class="card-body">
-        <h5 class="card-title">Ikan Bakar</h5>
+        <h4><a class="nav-link" aria-current="page" href="artikel.html#Product4">Ikan Bakar</a></h4>
         <a href="https://api.whatsapp.com/send?phone=6281365466267" class="btn btn-outline-primary">Beli Sekarang</a>
       </div>
     </div>
   </div>
   <div class="col mb-4 col-lg-3"><!-- Menggunakan col-md-4 untuk desktop dan col-12 untuk tampilan yang lebih kecil -->
     <div class="card">
-      <img src="2.jpg" class="d-center w-100" alt="...">
+      <img src="9.jpg" class="d-center w-100" alt="..." style="width:200px; height:200px; ">
       <div class="card-body">
-        <h5 class="card-title">Burger</h5>
+        <h4><a class="nav-link" aria-current="page" href="artikel.html#Product5">Udang Goreng</a></h4>
         <a href="https://api.whatsapp.com/send?phone=6281365466267" class="btn btn-outline-primary">Beli Sekarang</a>
       </div>
     </div>
   </div>
   <div class="col mb-4 col-lg-3"> <!-- Menggunakan col-md-4 untuk desktop dan col-12 untuk tampilan yang lebih kecil -->
     <div class="card">
-      <img src="3.jpg" class="d-center w-100" alt="...">
+      <img src="10.jpg" class="d-center w-100" alt="..." style="width:200px; height:200px; ">
       <div class="card-body">
-        <h5 class="card-title">Mie Goreng</h5>
+        <h4><a class="nav-link" aria-current="page" href="artikel.html#Product6">Cumi Goreng</a></h4>
         <a href="https://api.whatsapp.com/send?phone=6281365466267" class="btn btn-outline-primary">Beli Sekarang</a>
       </div>
     </div>
   </div>
   <div class="col mb-4 col-lg-3"><!-- Menggunakan col-md-4 untuk desktop dan col-12 untuk tampilan yang lebih kecil -->
     <div class="card">
-      <img src="4.jpg" class="d-center w-100" alt="...">
+      <img src="11.jpg" class="d-center w-100" alt="..." style="width:200px; height:200px; ">
       <div class="card-body">
-        <h5 class="card-title">Ayam CFC</h5>
+         <h4><a class="nav-link" aria-current="page" href="artikel.html#Product7">Nasi Goreng</a></h4>
         <a href="https://api.whatsapp.com/send?phone=6281365466267" class="btn btn-outline-primary">Beli Sekarang</a>
       </div>
     </div>
@@ -165,9 +179,9 @@
 
   <div class="col mb-4 col-lg-3"> <!-- Menggunakan col-md-4 untuk desktop dan col-12 untuk tampilan yang lebih kecil -->
   <div class="card">
-    <img src="5.jpg" class="d-center w-100" alt="...">
+    <img src="12.jpg" class="d-center w-100" alt="..." style="width:200px; height:200px; ">
     <div class="card-body">
-      <h5 class="card-title">Ikan Bakar</h5>
+       <h4><a class="nav-link" aria-current="page" href="artikel.html#Product8">Mie Tiaw</a></h4>
       <a href="https://api.whatsapp.com/send?phone=6281365466267" class="btn btn-outline-primary">Beli Sekarang</a>
     </div>
   </div>
@@ -185,6 +199,25 @@
       <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/" role="button"
         ><i class="fab fa-instagram"></i></a>
     </section>
+	<script>
+    var audio = document.getElementById("myAudio");
+    var playButton = document.querySelector("#audio-controls button");
+    var durationDisplay = document.getElementById("duration");
+
+    function togglePlayPause() {
+      if (audio.paused) {
+        audio.play();
+      } else {
+        audio.pause();
+      }
+    }
+
+    audio.addEventListener("timeupdate", function () {
+      var minutes = Math.floor(audio.currentTime / 60);
+      var seconds = Math.floor(audio.currentTime % 60);
+      durationDisplay.textContent = minutes + ":" + (seconds < 10 ? "0" : "") + seconds;
+    });
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/206142bfe3.js" crossorigin="anonymous"></script>
   </body>
